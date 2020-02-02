@@ -1341,7 +1341,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .feature-sub {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../images/image-bg.jpg) no-repeat center center;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../images/iphone-7-e-7plus.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 150px 0 150px 0;
 }
@@ -1700,6 +1700,12 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	margin-bottom: 10px;
 }
 
+.table-left .pricing-details img, .table-right .pricing-details img {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
 .pricing-section .table-left:hover, .pricing-section .table-right:hover {
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 	-webkit-transition: 0.3s;
@@ -1718,7 +1724,29 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 /* ----- Pricing Section Styling Ends ----- */
 
-
+.btn-pay {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+	
+	#myBtn {
+	  display: none;
+	  cursor: pointer;
+	  position: fixed;
+	  bottom: 20px;
+	  left: 30px;
+	  border: 5px solid black;
+	  z-index: 9999;
+	  border: none;
+	  outline: none;
+	  background-color: #00aeda;
+	  color: white;
+	  cursor: pointer;
+	  padding: 15px;
+	  border-radius: 50px;
+	  width: 150px;
+	}
 
 
 /* ----- Counter Section Styling Starts -----*/
@@ -2212,6 +2240,8 @@ padding: 70px 10px 50px 350px;
    border-radius: 5px 0 0 5px;
  }
 
+
+
  .subscribe-form .submit-button {
    padding: 0 5px 0 5px;
    border-radius: 0 5px 5px 0;
@@ -2222,6 +2252,13 @@ padding: 70px 10px 50px 350px;
 
 @media screen and (max-width: 399px) {
 
+	.pitch-intro h1 {
+		font-size: 35px;
+		font-weight: 900;
+		line-height: 1.2;
+		color: #FFF;
+		margin: 0 0 30px 0;
+	}
 	.cta-sub {
 		text-align: center;
 	}
