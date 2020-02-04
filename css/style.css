@@ -619,6 +619,7 @@ font-family: Arial;
 	background: #00aeda;
 	border-color: #00aeda;
 	color: #FFFFFF;
+	text-align: center;
 }
 
 .form .btn-action:hover {
@@ -1659,7 +1660,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .pricing-section .table-left, .pricing-section .table-right {
-	padding: 20px 20px 50px 20px;
+	/* padding: 20px 20px 50px 20px; */
 	margin: 0 auto;
 	margin-bottom: 30px;
 	background-color: #222225;
@@ -2258,11 +2259,6 @@ padding: 70px 10px 50px 350px;
    border-radius: 5px 0 0 5px;
  }
 
-
-
-
-
-
  .subscribe-form .submit-button {
    padding: 0 5px 0 5px;
    border-radius: 0 5px 5px 0;
@@ -2271,21 +2267,44 @@ padding: 70px 10px 50px 350px;
 }
 
 
-@media screen and (max-width: 399px) {
+@media only screen and (min-width: 320px) and (max-width: 374px) {
 
-	.app .btn-action {
+	.app .btn-action .btn-fill{
 		display: flex;
 		justify-content: center;
 	}
 
+	.btn-action {
+		font-family: 'Roboto', sans-serif;
+		background-color: #00aeda;
+		border: 1px solid #00aeda;
+		border-radius: 0;
+		color: #FFFFFF;
+		font-size: 15px;
+		font-weight: 700;
+		padding: 20px 35px;
+		letter-spacing: 1px;
+		line-height: 1;
+		text-transform: uppercase;
+		outline: none;
+		-webkit-transition: 200ms;
+		-moz-transition: 200ms;
+		-o-transition: 200ms;
+		transition: 200ms;
+	   }
+	   .table-left .pricing-details span, .table-right .pricing-details span {
+		   font-size: 25px;
+	   }
+
+	   .table-left .pricing-details p, .table-right .pricing-details p {
+		   font-size: 10px;
+		   text-align: left;
+	   }
 	.pricing-details-b img {
 		width: 150px;
 		text-align: center;
 		display: flex;
 		justify-content: center;
-	}
-	.pricing-details {
-		padding: 0;
 	}
 
 	.pricing-details-b button {
