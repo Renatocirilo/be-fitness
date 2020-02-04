@@ -2259,6 +2259,11 @@ padding: 70px 10px 50px 350px;
    border-radius: 5px 0 0 5px;
  }
 
+ .form .hero-section {
+	background:url(../images/bg-responsive.jpg);
+	background-size: cover;
+}
+
  .subscribe-form .submit-button {
    padding: 0 5px 0 5px;
    border-radius: 0 5px 5px 0;
