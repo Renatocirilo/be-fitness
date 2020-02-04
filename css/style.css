@@ -2272,7 +2272,7 @@ padding: 70px 10px 50px 350px;
 }
 
 
-@media only screen and (min-width: 320px) and (max-width: 374px) {
+@media only screen and (min-width: 320px) and (max-width: 399px) {
 
 	.app .btn-action .btn-fill{
 		display: flex;
