@@ -1466,6 +1466,8 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .split-content h1 {
+	text-transform: uppercase;
+	color: #00aeda;
 	font-size: 37px;
 	font-weight: 900;
 	letter-spacing: -1px;
@@ -2274,6 +2276,44 @@ padding: 70px 10px 50px 350px;
 
 @media only screen and (min-width: 320px) and (max-width: 399px) {
 
+	.feature-sub .sub-inner h1 { 
+		text-transform: uppercase;
+		font-size: 20px;
+	}
+
+	.color-b{
+		color: #FFFFFF;
+	}
+
+	.pricing-intro p {
+		font-size: 13px;
+		text-transform: uppercase;
+		color: #a1a1a1;
+		font-weight: 300;
+		line-height: 1.4;
+		letter-spacing: 1px;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+
+	.pitch-content p {
+		font-family: 'Roboto', sans-serif;
+		text-transform: uppercase;
+		font-size: 14px;
+		line-height: 1.5;
+		color: #A1A1A1;
+		letter-spacing: 0;
+	}
+
+	.app-features .feature-single p {
+		font-size: 17px;
+		color: #A1A1A1;
+		text-transform: uppercase;
+		line-height: 1.4;
+		letter-spacing: 1px;
+		margin: 10px 0 0 0;
+	}
+
 	.app .btn-action .btn-fill{
 		display: flex;
 		justify-content: center;
@@ -2323,7 +2363,7 @@ padding: 70px 10px 50px 350px;
 	}
 
 	.pitch-intro h1 {
-		font-size: 35px;
+		font-size: 30px;
 		font-weight: 900;
 		line-height: 1.2;
 		color: #FFF;
