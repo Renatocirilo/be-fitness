@@ -451,7 +451,9 @@ p {
 	margin: 0 0 25px 0;
 }
 
-
+.btn-action:hover {
+	background-color: #00aeda;
+}
 .btn-action {
  font-family: 'Roboto', sans-serif;
  background-color: #00aeda;
@@ -627,7 +629,10 @@ font-family: Arial;
 	border-color: #00aeda;
 	color: #00aeda;
 }
-
+.modal-body {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
 
 /*-----------------------------------------------------
 -------------- Image Bg Styling Starts ----------------
@@ -962,6 +967,34 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .download-buttons img {
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+.btn-close {
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	background: #da0000;
+	border-color: #da0000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 30px;
+	padding: 10px 30px;
+}
+.btn-close:hover  {
+	color: #FFFFFF;
+}
+.btn-pay-me:hover {
+	color: #FFFFFF;
+}
+.btn-pay-me {
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	background: #07da00;
+	border-color: #07da00;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 30px;
+	padding: 10px 40px;
 }
 
 
@@ -1700,10 +1733,8 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .table-left .pricing-details p, .table-right .pricing-details p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	font-weight: 300;
 	color: #505050;
 	letter-spacing: 1px;
-	line-height: 1.4;
 }
 
 .table-left .pricing-details ul, .table-right .pricing-details ul {
@@ -2256,6 +2287,10 @@ padding: 70px 10px 50px 350px;
 
 @media screen and (min-width: 400px) and (max-width: 767px) {
 
+	#myBtn {
+		display: none;
+	}
+
  .subscribe-form .mail {
    padding: 0 30px 0 20px;
    border-radius: 5px 0 0 5px;
@@ -2300,6 +2335,22 @@ padding: 70px 10px 50px 350px;
 
 @media only screen and (min-width: 322px) and (max-width: 399px) {
 
+	#myBtn {
+		display: none;
+	}
+	.btn-pay {
+		display: none;
+	}
+
+	.btn-close {
+		display: flex;
+		float: left;
+	}
+	.btn-pay-me {
+		display: flex;
+		float: right;
+	}
+
 	.feature-sub .sub-inner h1 { 
 		text-transform: uppercase;
 		font-size: 20px;
@@ -2333,7 +2384,7 @@ padding: 70px 10px 50px 350px;
 	}
 
 	.pricing-intro p {
-		font-size: 13px;
+		font-size: 14px;
 		text-transform: uppercase;
 		color: #a1a1a1;
 		font-weight: 300;
@@ -2464,6 +2515,40 @@ padding: 70px 10px 50px 350px;
  }
 
  @media only screen and (min-width: 300px) and (max-width: 321px) {
+
+	#myBtn {
+		display: none;
+	}
+
+	.btn-close {
+		display: flex;
+		float: left;
+	}
+	.btn-pay-me {
+		display: flex;
+		float: right;
+	}
+
+	.form .hero-content h1 {
+		font-size: 25px;
+		font-weight: 900;
+		color: #A1A1A1;
+		line-height: 1.2;
+		letter-spacing: -1px;
+		margin: 0 0 20px 0;
+	}
+	
+	.form .hero-content p {
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		color: #A1A1A1;
+		font-weight: 410;
+		line-height: 1.5;
+	}
+	.form .sub-form {
+		padding: 0px 0 0 0;
+		text-align: left;
+	}
 
 	.feature-sub .sub-inner h1 { 
 		text-transform: uppercase;
